@@ -32,6 +32,7 @@ function App() {
     }
   }
 
+
   async function handleAddTodo(event) {
     event.preventDefault();
     if (!todoText.trim()) return;
